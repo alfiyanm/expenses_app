@@ -21,6 +21,8 @@ class MyHomePage extends StatelessWidget {
         title: Text('Expenses App'),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Container(
             width: double.infinity,
@@ -31,6 +33,7 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
           Card(
+            color: Colors.red,
             child: Text('LIST OF TX!'),
           )
         ],
